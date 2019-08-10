@@ -24,7 +24,7 @@ public class NumberPrint {
 	public static void printEven() {
 		System.out.println("Below is the even number from 1 to 100: ");
 //		the odd print is for loop, even number is while loop
-		int i = 1;
+		int i = 1; 
 		while(i < 101) {
 			if(i % 2 == 0) {
 				System.out.print(i + ", ");
